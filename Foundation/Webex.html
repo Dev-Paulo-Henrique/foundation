@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagens/images (12).png" type="image/png">
+    <title>Webex</title>
+</head>
+
+<body>
+  <img src="Imagens/menu-2.png" id="img_menu" onclick="open_menu()"/>
+  <nav id="nav" style="display: none">
+    <ul>
+      <li>
+        <a href="https://www.educacao.org.br/_layouts/15/Portais.Educacao.Provider/CustomLoginPage.aspx?ReturnUrl=%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&Source=%2f" target="_blank">Portal Educação</a>
+      </li>
+      <li>
+        <a href="http://sistema.programasemente.com.br/profile/login/" target="_blank">Programa Semente</a>
+      </li>
+      <li>
+        <a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1593746438&rver=7.0.6738.0&wp=MBI_SSL&wreply=https:%2F%2Faccount.microsoft.com%2Fauth%2Fcomplete-signin%3Fru%3Dhttps%253A%252F%252Faccount.microsoft.com%252F%253Frefp%253Dsignedout-index%2526refd%253Dwww.google.com&lc=1046&id=292666&lw=1&fl=easi2" target="_blank">Microsoft Stream</a>
+      </li>
+    </ul>
+  </nav>
+  <h1>Salas Webex</h1>
+  <p>Usuário: 
+  <a style="color: #E50914; font-weight: bold">
+  <script>
+    var show_user = window.localStorage.getItem("User:");
+      document.write(show_user)
+  </script>
+  </a>
+  </p>
+  <br><br>
+    <div class="inp">
+    <input type="button" value="Artes" onclick="angela()">
+    <input type="button" value="Biologia" onclick="marcele()">
+    <input type="button" value="Ed. Fís. 1/2 ano" onclick="natalia()">
+    <input type="button" value="Ed. Fís. 3 ano" onclick="gileno()">
+    <input type="button" value="Espanhol" onclick="camila()">
+    <input type="button" value="Filosofia" onclick="romulo()">
+    <input type="button" value="Física" onclick="rodrigo()">
+    <input type="button" value="Geografia" onclick="diego()">
+    <input type="button" value="História" onclick="handresson()">
+    <input type="button" value="Inglês" onclick="italo()">
+    <input type="button" value="Matemática" onclick="edvaldo()">
+    <input type="button" value="Português" onclick="simone()">
+    <input type="button" value="Projeto de vida" onclick="gleison()">
+    <input type="button" value="Química" onclick="ciele()">
+    <input type="button" value="Sociologia" onclick="romulo()"> 
+  <br><br>
+    <input type="button" value="Voltar" onclick="sair()" id="back" style="width:98%">
+    </div>
+<script src="main.js"></script>
+</body>
+
+</html>

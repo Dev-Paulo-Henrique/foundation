@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="Imagens/images (12).png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
+  <script src="sweetalert2/dist/sweetalert2.min.js"></script>
+  <link rel="stylesheet" href="sweetalert2dist/sweetalert2.min.css">
+  <script type="module">
+  import Swal from 'sweetalert2/src/sweetalert2.js'
+  </script>
+  <title>Foundation</title>
+  </head>
+  
+<body>
+<strong><h1>Foundation</h1></strong>
+<br><br>
+  <div class="card" id="card">
+    <h1 class="login">Login</h1>
+      <div class="group">
+          <input type="text" placeholder="Usuário" id="user" autocomplete="off" minlength="9" maxlength="9">
+      </div>
+      <br>
+      <div class="pass">
+        <input type="password" placeholder="Senha" id="password"/>
+        <button type="submit" onclick="handLeLogon()">Acessar</button>
+      </div>
+  </div>
+  <footer>Aprendizagem é o seu porto seguro</footer>
+<script src="main.js"></script>
+</body>
+</html>
